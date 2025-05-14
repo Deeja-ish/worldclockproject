@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     <title>World clock</title>
 </head>
@@ -19,11 +21,18 @@
             <option value="Tokyo">Tokyo</option>
         </select>
         <div class="city">
-            <div class="city-name">
+            <div class="city-name" id="los-angeles">
                 <h2>Los Angeles</h2>
-                <p class="date">August 15th 2023</p>
+                <p class="date"></p>
             </div>
-            <div class="city-date"> 1:48:15 <small>AM</small></div>
+            <div class="time" id="time"><small></small></div>
+        </div>
+        <div class="city">
+            <div class="city-name" id="paris">
+                <h2>Paris</h2>
+                <p class="date"></p>
+            </div>
+            <div class="time" id="ptime">  <small></small></div>
         </div>
     </div>
 <footer>
