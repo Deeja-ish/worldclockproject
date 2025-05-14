@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://img.freepik.com/free-vector/happy-new-year-background-with-clock_1048-3405.jpg?ga=GA1.1.694638679.1746437909&semt=ais_hybrid&w=740");
+    background-position: center;
+    background-size: cover;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+ h1{
+    text-align: center;
+    font-size: 50px;
+ }
+ select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 3px solid #979292;
+    font-size: 16px;
+    transition: 0.3s ease;
+ }
+
+ select:hover{
+     border: 3px solid #000;
+}
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px dashed #979292;
+    padding: 20px 0;
+}
+
+.city:last-child{
+    border-bottom: none;
+}
+
+h2{
+    margin:0;
+    font-size: 40px;
+}
+.date{
+    margin: 0;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+
+.city-date{
+    font-size: 50px;
+}
+
+
+.city-date small{
+    font-size: 20px;
+    vertical-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
