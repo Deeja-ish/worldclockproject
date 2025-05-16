@@ -45,6 +45,7 @@ function changeCity(event){
         </div>
         <div class="time">${moment().tz(cityTimeZone).format("HH:mm:ss [<small>]A[</small>]")}</div>
         </div>
+        <a href="index.html" id ="link">All cities</a>
     `;
 
 }
