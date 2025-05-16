@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <!-- import google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- import moment -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <!-- import moment-timezone -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     <title>World clock</title>
@@ -14,25 +17,29 @@
 <body>
     <div class="container">
         <h1>World Clock</h1>
-        <select name="" id="">
+        <select name="" id="select-city">
             <option value="">Select a city.....</option>
-            <option value="London">London</option>
-            <option value="New York">New York</option>
-            <option value="Tokyo">Tokyo</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Pacific/Auckland">Auckland</option>
+            <option value="Africa/Abuja">Abuja</option>
         </select>
-        <div class="city">
-            <div class="city-name" id="los-angeles">
-                <h2>Los Angeles</h2>
-                <p class="date"></p>
+        <div id="cities">
+            <div class="city">
+                <div class="city-name" id="los-angeles">
+                    <h2>Los Angeles</h2>
+                    <p class="date"></p>
+                </div>
+                <div class="time" id="time"><small></small></div>
             </div>
-            <div class="time" id="time"><small></small></div>
-        </div>
-        <div class="city">
-            <div class="city-name" id="paris">
-                <h2>Paris</h2>
-                <p class="date"></p>
+            <div class="city">
+                <div class="city-name" id="paris">
+                    <h2>Paris</h2>
+                    <p class="date"></p>
+                </div>
+                <div class="time" id="ptime">  <small></small></div>
             </div>
-            <div class="time" id="ptime">  <small></small></div>
         </div>
     </div>
 <footer>
